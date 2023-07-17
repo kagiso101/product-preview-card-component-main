@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;700&display=swap');
+
+
+@media screen and (min-width : 481px) {
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .content-body {
+        position: relative;
+        top: 25px;
+    }
+
+
+    .title {
+        position: relative;
+        top: 10px;
+        max-width: 83%;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+
+    body {
+        background-color: hsl(30, 38%, 92%);
+    }
+
+    .main-container {
+        position: relative;
+        top: 100px;
+        width: 700px;
+        display: flex;
+        margin: auto;
+    }
+
+    h1 {
+        margin: 0;
+        color: hsl(212, 21%, 14%);
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    p {
+        color: hsl(228, 12%, 48%);
+        font-family: 'Montserrat', sans-serif;
+        line-height: 27px;
+    }
+
+    body {
+        background-color: hsl(30, 38%, 92%);
+    }
+
+
+    .prices {
+        position: relative;
+        top: 40px;
+    }
+
+    .content-container {
+        background-color: hsl(0, 0%, 100%);
+        padding: 25px;
+        border-radius: 0 10px 10px 0;
+        height: 493px;
+        ;
+        line-height: 40px;
+    }
+
+    .button-container {
+        text-align: center;
+        position: relative;
+        top: 75px;
+    }
+
+    .button-container button {
+        width: -webkit-fill-available;
+        height: 43px;
+        border-radius: 5px;
+        border: none;
+        margin: auto;
+        color: white;
+        background-color: hsl(158, 36%, 37%);
+        font-family: 'Montserrat', sans-serif;
+        ;
+    }
+
+    .current-price {
+        color: hsl(158, 36%, 37%);
+        font-weight: 700;
+        font-family: 'Fraunces', serif;
+        font-size: 33px;
+    }
+
+    .old-price {
+        margin-left: 20px;
+        position: relative;
+        bottom: 6px;
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+    }
+
+    .cart-img {
+        margin-right: 10px;
+    }
+
+    .perfume {
+        color: hsl(228, 12%, 48%);
+        margin-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .desktop-img {
+        max-width: 360px;
+        height: 542px;
+        border-radius: 10px 0 0 10px;
+
+    }
+}
+
+
+@media screen and (max-width : 480px) {
+    .main-container {
+        border-radius: 10px;
+    }
+
+    h1 {
+        margin: 0;
+        color: hsl(212, 21%, 14%);
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    p {
+        color: hsl(228, 12%, 48%);
+        font-family: 'Montserrat', sans-serif;
+        line-height: 27px;
+    }
+
+    .mobile-img {
+        max-width: 100%;
+        border-radius: 10px 10px 0 0;
+        position: relative;
+        top: 3px;
+        display: block;
+    }
+
+    body {
+        background-color: hsl(30, 38%, 92%);
+    }
+
+    .content-container {
+        background-color: hsl(0, 0%, 100%);
+        padding: 25px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .button-container {
+        text-align: center;
+        margin-top: 20px
+    }
+
+    .button-container button {
+        width: -webkit-fill-available;
+        height: 43px;
+        border-radius: 5px;
+        border: none;
+        margin: auto;
+        color: white;
+        background-color: hsl(158, 36%, 37%);
+        font-family: 'Montserrat', sans-serif;
+        ;
+    }
+
+    .current-price {
+        color: hsl(158, 36%, 37%);
+        font-weight: 700;
+        font-family: 'Fraunces', serif;
+        font-size: 33px;
+    }
+
+    .old-price {
+        margin-left: 20px;
+        position: relative;
+        bottom: 6px;
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+    }
+
+    .cart-img {
+        margin-right: 10px;
+    }
+
+    .perfume {
+        color: hsl(228, 12%, 48%);
+        margin-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .desktop-img {
+        display: none;
+    }
+
+
+}
